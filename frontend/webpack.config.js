@@ -8,7 +8,7 @@ module.exports = {
         filename: './app.js'
     },
     devServer: {
-        port: 8082,
+        port: 8081,
         contentBase: './public',
     },
     resolve: {
