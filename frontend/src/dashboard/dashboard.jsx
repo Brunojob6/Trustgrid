@@ -18,6 +18,7 @@ class Dashboard extends Component {
     render() {
         //Extrair os atributos do summary ou destruct (atlho vs:dob)
         const { credit, debt } = this.props.summary
+        console.log(this.props.summary)
         return (
             <div>
                 <ContentHeader title="Dashboard" small="Versão 1.0"/>

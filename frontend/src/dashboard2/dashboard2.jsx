@@ -16,7 +16,7 @@ export default class Dashboard extends Component {
     }
 
     componentWillMount() {
-        axios.get(`${BASE_URL}/billingCycles/summary`)
+        axios.get(`${BASE_URL}/billingCycle/summary`)
             .then(resp => this.setState(resp.data))
     }
 
